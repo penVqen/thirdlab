@@ -18,11 +18,33 @@
         button {
             background-color: #286c2a;
             color: white;
+            padding: 10px 15px;
+            margin-left: 5px;
+            border-radius: 5px;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px; 
+        }
+
+        .form {
+            display: flex;
         }
     </style>
 </head>
 <body>
-    <h1>Лабораторная работа 3</h1>
+    <div class="header-container">
+        <h1>Лабораторная работа 3</h1>
+        <div class="form">
+            <span>Войти через:</span>
+            <button>VK</button>
+            <button>OK</button>
+        </div>
+    </div>
+    
     <div class="border">
         <p>Прокофьев Илья Сергеевич</p>
         <p>ИПсп-121</p>
